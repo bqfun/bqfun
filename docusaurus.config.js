@@ -25,6 +25,11 @@ module.exports = {
           label: 'Slack',
           position: 'right',
         },
+        {
+          href: 'https://trello.com/b/EHyZuRFS/bq-fun-issues',
+          label: 'Trello',
+          position: 'right',
+        },
       ],
     },
   },
