@@ -32,6 +32,9 @@ module.exports = {
         },
       ],
     },
+    googleAnalytics: {
+      trackingID: 'G-GRYGVF1NZ9',
+    },
   },
   presets: [
     [
