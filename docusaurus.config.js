@@ -33,7 +33,7 @@ module.exports = {
       ],
     },
     googleAnalytics: {
-      trackingID: 'G-GRYGVF1NZ9',
+      trackingID: 'UA-156581645-4',
     },
   },
   presets: [
