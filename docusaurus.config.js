@@ -8,11 +8,12 @@ module.exports = {
   organizationName: 'bqfun', // Usually your GitHub org/user name.
   projectName: 'bqfun', // Usually your repo name.
   themeConfig: {
+    image: 'img/bqfun.png',
     navbar: {
       title: 'BQ FUN',
       logo: {
         alt: 'BQ FUN Logo',
-        src: 'img/logo.svg',
+        src: 'img/bqfun.png',
       },
       items: [
         {
