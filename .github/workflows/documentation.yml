@@ -1,38 +1,26 @@
-name: documentation
-
-on:
-  pull_request:
-    branches: [main]
-  push:
-    branches: [main]
+on: push
 
 jobs:
   checks:
-    if: github.event_name != 'push'
+    if: ${{ github.ref != 'refs/heads/main' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
-          node-version: '12.x'
+          node-version: '14'
       - name: Test Build
         run: |
-          if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
           npm ci
-          else
-          npm i
-          fi
           npm run build
   gh-release:
-    if: github.event_name != 'pull_request'
+    if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
-          node-version: '12.x'
+          node-version: '14'
       - uses: webfactory/ssh-agent@v0.5.0
         with:
           ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
@@ -41,13 +29,7 @@ jobs:
           USE_SSH: true
           GIT_USER: git
         run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "gh-actions"
-          if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "github-actions"
           npm ci
-          else
-          npm i
-          fi
           npm run deploy
