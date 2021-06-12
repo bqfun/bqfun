@@ -1,13 +1,18 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'BQ FUN',
-  tagline: 'BigQuery中毒者へ',
+  favicon: 'img/favicon.ico',
   url: 'https://bqfun.jp',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  i18n: {
+    defaultLocale: 'ja',
+    locales: ['ja'],
+  },
+  tagline: 'BigQuery中毒者へ',
   organizationName: 'bqfun', // Usually your GitHub org/user name.
   projectName: 'bqfun', // Usually your repo name.
   themeConfig: {
+    hideableSidebar: true,
     image: 'img/bqfun.png',
     navbar: {
       title: 'BQ FUN',
@@ -37,6 +42,7 @@ module.exports = {
       trackingID: 'UA-156581645-4',
     },
   },
+  plugins: ['@docusaurus/plugin-google-analytics'],
   presets: [
     [
       '@docusaurus/preset-classic',
