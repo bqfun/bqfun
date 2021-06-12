@@ -42,7 +42,6 @@ module.exports = {
       trackingID: 'UA-156581645-4',
     },
   },
-  plugins: ['@docusaurus/plugin-google-analytics'],
   presets: [
     [
       '@docusaurus/preset-classic',
