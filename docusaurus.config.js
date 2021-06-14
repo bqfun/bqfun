@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'BQ FUN',
-  favicon: 'img/favicon.ico',
+  favicon: 'favicon.ico',
   url: 'https://bqfun.jp',
   baseUrl: '/',
   i18n: {
