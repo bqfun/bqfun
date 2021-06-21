@@ -1,0 +1,406 @@
+[
+    {
+        "name": "GMO アドマーケティング株式会社",
+        "url": "https://www.gmo-am.jp/",
+        "examples": [
+            {
+                "title": "BigQuery や TensorFlow などの先進的機能に惹かれ Google Cloud Platform を採用",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/gmo-bigquery-tensorflow-google-cloud-platform"
+            }
+        ]
+    },
+    {
+        "name": "JapanTaxi株式会社",
+        "url": "https://japantaxi.co.jp/",
+        "examples": [
+            {
+                "title": "BigQuery を活用して、国内最大級のタクシー配車アプリ『JapanTaxi』を支えるデータ分析基盤を構築",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/japantaxi-bigquery/"
+            }
+        ]
+    },
+    {
+        "name": "K4 Digital株式会社",
+        "url": "https://k4digital.jp/",
+        "examples": [
+            {
+                "title": "デジタル トランスフォーメーション推進に変化に強く柔軟な GCP を採用。BigQuery を中心とした GCP プロダクトを活用した新しい基盤を構築",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/k4-digital-gcp-bigquery"
+            }
+        ]
+    },
+    {
+        "name": "KLab株式会社",
+        "url": "https://www.klab.com/jp",
+        "examples": [
+            {
+                "title": "Cloud Run で機械学習活用をスモールスタート。ゲーム内チャットの迷惑ユーザー判定自動化などを実現",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/klab-cloud-run/"
+            }
+        ]
+    },
+    {
+        "name": "LINEモバイル株式会社",
+        "url": "https://mobile.line.me/",
+        "examples": [
+            {
+                "title": "Google Cloud 上にプライベート DMP を構築。マーケティング戦略の最適化をデータで支援",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/line-mobile-private-dmp/"
+            }
+        ]
+    },
+    {
+        "name": "NTTコミュニケーションズ株式会社",
+        "url": "https://www.ntt.com/",
+        "examples": [
+            {
+                "title": "サーバーレス ソリューションで新サービスを少人数、低コストにアジャイル開発",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/ntt-com-serverless-solution/"
+            }
+        ]
+    },
+    {
+        "name": "Synspective Inc.",
+        "url": "https://synspective.com/jp/",
+        "examples": [
+            {
+                "title": "衛星データの活用基盤を Google Cloud で構築。宇宙規模で社会貢献を目指す先進的企業のソリューション実現を支援",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/synspective-inc-google-cloud/"
+            }
+        ]
+    },
+    {
+        "name": "Ubie株式会社",
+        "url": "https://ubie.life/",
+        "examples": [
+            {
+                "title": "医療現場のタスク・シフトを推進する『AI問診Ubie』のシステム基盤に Google Cloud を採用",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/ubie-ai--google-cloud/"
+            }
+        ]
+    },
+    {
+        "name": "アスクル株式会社",
+        "url": "https://www.askul.co.jp/kaisya/index.html",
+        "examples": [
+            {
+                "title": "BigQuery から Partner Interconnect まで、各種 GCP プロダクトを駆使して次世代マーケティング プラットフォーム『ASKUL EARTH』を構築",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/bigquery-partner-interconnect-gcp-askul-earth"
+            }
+        ]
+    },
+    {
+        "name": "アスタミューゼ株式会社",
+        "url": "https://www.astamuse.co.jp/",
+        "examples": [
+            {
+                "title": "2 億件近い非正規データを BigQuery で高速分析。コンサルティング事業 SaaS 化も視野に",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/astamuse-bigquery-saas/"
+            }
+        ]
+    },
+    {
+        "name": "インフォメティス株式会社",
+        "url": "https://www.informetis.com/",
+        "examples": [
+            {
+                "title": "Cloud Bigtable を中核に IoT プラットフォームを再構築",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/informetis-cloud-bigtable-iot/"
+            }
+        ]
+    },
+    {
+        "name": "ソニーネットワークコミュニケーションズ株式会社",
+        "url": "https://www.sonynetwork.co.jp/",
+        "examples": [
+            {
+                "title": "BigQuery の導入でデータサイエンティストが “価値ある仕事” に集中できるように",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/bigquery_17"
+            },
+            {
+                "title": "BigQuery の導入で煩雑な業務から解放、運用にパラダイムシフトを",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/google-cloud-platform-bigquery-sonynetwork"
+            }
+        ]
+    },
+    {
+        "name": "ポノス株式会社",
+        "url": "https://www.ponos.jp/",
+        "examples": [
+            {
+                "title": "『にゃんこ大泥棒』小規模体制のゲーム開発の課題を Google Cloud で解決",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/ponos/"
+            }
+        ]
+    },
+    {
+        "name": "北海道テレビ放送株式会社",
+        "url": "https://www.htb.co.jp/",
+        "examples": [
+            {
+                "title": "Google Cloud による放送アクセスログ分析で、放送業界全体が利益を創出できる仕組みを目指す",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/hokkaido-tv-log-analysis/"
+            }
+        ]
+    },
+    {
+        "name": "合同会社 EXNOA（DMM GAMES）",
+        "url": "https://dmmgames.co.jp/",
+        "examples": [
+            {
+                "title": "Recommendations AI の活用で PC パッケージの売上を約 2 倍に拡大",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/exnoa-dmm-games-recommendations-ai/"
+            }
+        ]
+    },
+    {
+        "name": "合同会社DMM.com",
+        "url": "https://dmm-corp.com/",
+        "examples": [
+            {
+                "title": "reCAPTCHA Enterprise の高精度なスコアシステムで、不正アクセス検知率を約 50％ 向上",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/dmm-com-recaptcha-enterprise/"
+            }
+        ]
+    },
+    {
+        "name": "大阪ガス株式会社",
+        "url": "https://www.osakagas.co.jp/",
+        "examples": [
+            {
+                "title": "PSO と ASL での学びを経て IoT 分析基盤を構築。最先端のクラウド・AI 技術で都市ガスインフラを支える",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/osakagas-pso-asl-bq/"
+            }
+        ]
+    },
+    {
+        "name": "弁護士ドットコム株式会社",
+        "url": "https://corporate.bengo4.com/",
+        "examples": [
+            {
+                "title": "既存システムを変更することなく Google Cloud 機械学習を社内向け API として提供",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/bengoshi-com-google-cloud-ml-api/"
+            }
+        ]
+    },
+    {
+        "name": "日本テレビ放送網株式会社",
+        "url": "https://www.ntv.co.jp/",
+        "examples": [
+            {
+                "title": "サイロ化したデータを統合するための基盤に BigQuery を採用。トレーニングで Google Cloud を体系的に理解",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/ntv-bigquery/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社 博報堂ＤＹメディアパートナーズ",
+        "url": "https://www.hakuhodody-media.co.jp/",
+        "examples": [
+            {
+                "title": "GCP で広告レポート業務を大幅自動化、工数削減に成功",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/hakuhodo-dy-media-partners-gcp/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社LIXIL",
+        "url": "https://www.lixil.co.jp/",
+        "examples": [
+            {
+                "title": "ERP システムを含む膨大なデータ分析基盤をクラウド化、BigQuery でさらなるデータ利活用を促進する",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/lixil-erp-bigquery/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社MonotaRO",
+        "url": "https://corp.monotaro.com/overview.html",
+        "examples": [
+            {
+                "title": "BigQuery を駆使した新しいデータ分析基盤構築で、全社的にさらなるデータ活用を推進",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/monotaro-bigquery"
+            }
+        ]
+    },
+    {
+        "name": "株式会社TSIホールディングス",
+        "url": "https://www.tsi-holdings.com/",
+        "examples": [
+            {
+                "title": "デジタル マーケティングを機械学習でブーストし、顧客体験の再構築に成功",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/tsi-holdings-digital-marketing-ml/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社ZOZOテクノロジーズ",
+        "url": "https://tech.zozo.com/",
+        "examples": [
+            {
+                "title": "Cloud TPU で膨大な商品データを機械学習、AI による高精度な画像検索を実現",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/zozo-technologies-cloud-tpu-ai/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社アクアプラス",
+        "url": "https://aquaplus.jp/",
+        "examples": [
+            {
+                "title": "600 万 DL に向けてスケールし続ける人気ゲームタイトルを Google Cloud で安定稼働",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/aquaplus-google-cloud-/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社アダストリア",
+        "url": "https://www.adastria.co.jp/",
+        "examples": [
+            {
+                "title": "BigQuery を活用したデータレイクの構築により、データ分析の準備作業を 1 ヶ月から 1 週間に短縮",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/adastria-building-data-lake-using-bigquery/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社イーシーキューブ",
+        "url": "https://www.ec-cube.co.jp/",
+        "examples": [
+            {
+                "title": "Google Kubernetes Engine でもっと自由な EC サイトを",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/google-kubernetes-engine-ec-cube/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社オープンハウス",
+        "url": "https://oh.openhouse-group.com/",
+        "examples": [
+            {
+                "title": "業務改善による年間約 4 万 2,000 時間の工数削減に AI Platform 、BigQuery を活用",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/openhouse-using-ai-platform-and-bigquery/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社エウレカ",
+        "url": "https://eure.jp/",
+        "examples": [
+            {
+                "title": "Stackdriver Logging でのログ監視や、BigQuery を駆使した分析・活用などにより、SLO 99.95% を達成",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/eureka-stackdriver-logging-bigquery"
+            }
+        ]
+    },
+    {
+        "name": "株式会社ギックス",
+        "url": "https://www.gixo.jp/",
+        "examples": [
+            {
+                "title": "フロントエンドを Cloud Firestore、バックエンドを GKE で、ビッグデータ活用サービス『トチカチ』を構築",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/gixo-firestore-gke-bq/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社スクウェア・エニックス / 株式会社 Aiming",
+        "url": "https://www.jp.square-enix.com/",
+        "examples": [
+            {
+                "title": "国民的人気シリーズ作品『ドラゴンクエストタクト』を Google Cloud の活用で安定配信・運用に成功",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/square-enix-aiming/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社セブン－イレブン・ジャパン",
+        "url": "https://www.sej.co.jp/",
+        "examples": [
+            {
+                "title": "これからの IT 戦略を支えるデジタルデータ基盤「セブンセントラル」を Google Cloud 上に構築",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/seven-central-on-google-cloud-platform/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社ディー・エヌ・エー",
+        "url": "https://dena.com/jp",
+        "examples": [
+            {
+                "title": "データ分析基盤の構築でリアルタイムなデバイスデータの収集・分析を実現。コロナ禍の安心・安全なイベント開催に貢献",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/dena-building-data-analysis-infra/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社トーセ",
+        "url": "http://www.tose.co.jp/",
+        "examples": [
+            {
+                "title": "600 万 DL に向けてスケールし続ける人気ゲームタイトルを Google Cloud で安定稼働",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/aquaplus-google-cloud-/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社マネーフォワード",
+        "url": "https://corp.moneyforward.com/",
+        "examples": [
+            {
+                "title": "マネーフォワードの Fintech サービスを GCP が強力にサポート。BigQuery と GCS でログ解析の効率化とコスト削減を実現。",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/moneyforward-fintech-gcp-bigquery-gcs"
+            }
+        ]
+    },
+    {
+        "name": "株式会社ミクシィ",
+        "url": "https://mixi.co.jp/",
+        "examples": [
+            {
+                "title": "スポーツ ベッティング サービス『TIPSTAR』を Google Cloud 上に構築、プレミアム サポート導入で開発を加速",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/mixi-tipstar-google-cloud/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社メルカリ",
+        "url": "https://about.mercari.com/",
+        "examples": [
+            {
+                "title": "メルカリグループ日米で TAM を導入。プレミアム サポートを活用し開発効率を向上",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/mercari-tam/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社メルペイ",
+        "url": "https://jp.merpay.com/",
+        "examples": [
+            {
+                "title": "メルカリグループ日米で TAM を導入。プレミアム サポートを活用し開発効率を向上",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/mercari-tam/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社ヤプリ",
+        "url": "https://yapp.li/",
+        "examples": [
+            {
+                "title": "データ パイプラインを Pub/Sub や Dataflow で構築しBigQuery へリアルタイムにデータを蓄積、Looker により顧客のデータ活用を促進",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/yappli-pubsub-dataflow-bigquery/"
+            }
+        ]
+    },
+    {
+        "name": "株式会社リクルートテクノロジーズ",
+        "url": "https://recruit-tech.co.jp/",
+        "examples": [
+            {
+                "title": "リクルート横断データ プラットフォームが GCP 移行によってパフォーマンス・安定性ともに大幅向上",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/recruit-techologies-data-platform/"
+            }
+        ]
+    }
+]
