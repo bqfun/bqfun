@@ -1,0 +1,36 @@
+# 日本のBigQuery利用企業
+
+- 日本国内版
+- コントリビュートを歓迎します
+  - [Pull requests](https://github.com/bqfun/bqfun/edit/main/docs/bigquery-users-in-japan.md)
+  - [Issues](https://github.com/bqfun/bqfun/issues)
+  - 適当に書いて貰えると嬉しいです
+  - 求人情報も歓迎します
+
+
+[顧客事例 | Google Cloud Blog](https://cloud.google.com/blog/ja/topics/customers)や[BigQuery | Google Cloud Blog](https://cloud.google.com/blog/ja/products/bigquery)もぜひ参照してください。
+
+## 企業
+
+import examples from './data.json'
+
+<table>
+  <thead>
+    <tr>
+      <th>企業</th>
+      <th>事例</th>
+    </tr>
+  </thead>
+  <tbody>
+    {examples.map(company => {
+      return (
+        <tr>
+          <td><a href={ company.url }>{ company.name }</a></td>
+          <td>
+              { company.examples.map(example => <div><a href={ example.url }>{ example.title }</a></div>) }
+          </td>
+        </tr>
+      );
+    })}
+  </tbody>
+</table>
