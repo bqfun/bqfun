@@ -1,5 +1,15 @@
 [
     {
+        "name": "Classi株式会社",
+        "url": "https://corp.classi.jp/",
+        "examples": [
+            {
+                "title": "脆弱性を可視化し脅威検出も可能。対応策の提案機能を有効活用し、統合管理でセキュリティをさらに強化",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/classi-strengthen-security"
+            }
+        ]
+    },
+    {
         "name": "GMO アドマーケティング株式会社",
         "url": "https://www.gmo-am.jp/",
         "examples": [
@@ -80,6 +90,16 @@
         ]
     },
     {
+        "name": "株式会社みんなの銀行",
+        "url": "https://corporate.minna-no-ginko.com/",
+        "examples": [
+            {
+                "title": "日本初の「デジタルバンク」として Google Cloud に勘定系を構築。Cloud Spanner で銀行基幹システムで求められる可用性を実現",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/minna-no-ginko-spanner"
+            }
+        ]
+    },
+    {
         "name": "アスクル株式会社",
         "url": "https://www.askul.co.jp/kaisya/index.html",
         "examples": [
@@ -106,6 +126,16 @@
             {
                 "title": "Cloud Bigtable を中核に IoT プラットフォームを再構築",
                 "url": "https://cloud.google.com/blog/ja/topics/customers/informetis-cloud-bigtable-iot/"
+            }
+        ]
+    },
+    {
+        "name": "コカ･コーラ ボトラーズジャパン株式会社",
+        "url": "https://www.ccbji.co.jp/",
+        "examples": [
+            {
+                "title": "約 70 万台の自動販売機の分析・機械学習による予測プラットフォーム構築を短期間で実現",
+                "url": "https://cloud.google.com/blog/ja/topics/customers/coca-cola-bottlers-japan"
             }
         ]
     },
