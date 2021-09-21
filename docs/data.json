@@ -432,5 +432,15 @@
                 "url": "https://cloud.google.com/blog/ja/topics/customers/recruit-techologies-data-platform/"
             }
         ]
+    },
+    {
+        "name": "ＯＬＴＡ株式会社",
+        "url": "https://corp.olta.co.jp/",
+        "examples": [
+            {
+                "title": "エンジニア募集中",
+                "url": "https://www.wantedly.com/companies/olta/projects"
+            }
+        ]
     }
 ]
