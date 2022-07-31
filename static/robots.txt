@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://bqfun.jp/sitemap.xml
