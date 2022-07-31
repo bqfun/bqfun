@@ -13,7 +13,7 @@ tags: [analyticshub]
 「国民の祝日について」（内閣府）（https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html ）を加工して作成しています。
 
 Google Cloud上で、Scheduler、Workflows、Functionsを使って、更新されます。
-Terraformコードは[こちら](https://github.com/bqfun/jpdata/blob/main/terraform/environments/prod/main.tf#L19-L30)から確認できます。
+Terraformコードは[こちら](https://github.com/bqfun/jpdata/blob/42d140912feb5a8f4244d6e7cd6c4e479a871c2a/terraform/environments/prod/main.tf#L19-L30)から確認できます。
 
 BQ Funは、利用者が本コンテンツを用いて行う一切の責任を負いません。 また、予告なく変更、削除される場合があります。
 
