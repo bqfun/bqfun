@@ -64,7 +64,7 @@ const config = {
         title: 'BQ FUN',
         logo: {
           alt: 'BQ FUN Logo',
-          src: 'img/logo.png',
+          src: 'img/bqfun.png',
         },
         items: [
           {
@@ -130,6 +130,8 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      image: 'img/bqfun.png',
+      metadata: [{name: 'twitter:card', content: 'summary'}],
     }),
 };
 
