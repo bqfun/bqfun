@@ -9,13 +9,15 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://bqfun.jp/blog/first-blog-post</link>
-            <guid>first-blog-post</guid>
+            <title><![CDATA[祝日情報を加工して Analytics Hub - Google Cloud で公開]]></title>
+            <link>https://bqfun.jp/blog/holidays-preprocessed</link>
+            <guid>holidays-preprocessed</guid>
             <pubDate>Sun, 31 Jul 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Slackのフリープランの変更などにより、ブログ機能を有効化してストックすることにしました。]]></description>
-            <content:encoded><![CDATA[<p>Slackのフリープランの変更などにより、ブログ機能を有効化してストックすることにしました。</p>]]></content:encoded>
-            <category>website</category>
+            <description><![CDATA[国民の祝日を閲覧できるBigQueryテーブルを作成し、JP Holidays preprocessed by BQ FUN - Analytics Hubで公開しました。]]></description>
+            <content:encoded><![CDATA[<p>国民の祝日を閲覧できるBigQueryテーブルを作成し、<a href="https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/120299025068/locations/asia-northeast1/dataExchanges/jpdata_18253a34a30/listings/jp_holidays_preprocessed_by_bq_fun_18253c4e9dc" target="_blank" rel="noopener noreferrer">JP Holidays preprocessed by BQ FUN - Analytics Hub</a>で公開しました。
+自身の所有するGoogle Cloudプロジェクトの、BigQueryデータセットとしてリンクできます。</p><p><img loading="lazy" src="/assets/images/jpholidays-6c90dbd8b0a6d03e824eeb011fa82f56.png" width="773" height="633" class="img_ev3q"></p><p>「国民の祝日について」（内閣府）（<a href="https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html" target="_blank" rel="noopener noreferrer">https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html</a> ）を加工して作成しています。</p><p>Google Cloud上で、Scheduler、Workflows、Functionsを使って、更新されます。
+Terraformコードは<a href="https://github.com/bqfun/jpdata/blob/42d140912feb5a8f4244d6e7cd6c4e479a871c2a/terraform/environments/prod/main.tf#L19-L30" target="_blank" rel="noopener noreferrer">こちら</a>から確認できます。</p><p>BQ Funは、利用者が本コンテンツを用いて行う一切の責任を負いません。 また、予告なく変更、削除される場合があります。</p><p>出典：「国民の祝日について」（内閣府）（<a href="https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html" target="_blank" rel="noopener noreferrer">https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html</a> ）</p>]]></content:encoded>
+            <category>analyticshub</category>
         </item>
     </channel>
 </rss>

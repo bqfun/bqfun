@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbqfun=self.webpackChunkbqfun||[]).push([[79],{592:a=>{a.exports=JSON.parse('{"label":"analyticshub","permalink":"/blog/tags/analyticshub","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbqfun=self.webpackChunkbqfun||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u795d\u65e5\u60c5\u5831\u3092\u52a0\u5de5\u3057\u3066 Analytics Hub - Google Cloud \u3067\u516c\u958b","permalink":"/blog/holidays-preprocessed"}]}')}}]);
