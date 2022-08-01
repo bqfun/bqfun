@@ -4,10 +4,22 @@
         <title>BQ FUN Blog</title>
         <link>https://bqfun.jp/blog</link>
         <description>BQ FUN Blog</description>
-        <lastBuildDate>Sun, 31 Jul 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Aug 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[gBizINFO 法人情報を加工して Analytics Hub - Google Cloud で公開]]></title>
+            <link>https://bqfun.jp/blog/gbizinfo-preprocessed</link>
+            <guid>gbizinfo-preprocessed</guid>
+            <pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[gBizINFOの、法人番号のついた組織について情報を閲覧できるBigQueryテーブルを作成し、gBizINFO preprocessed by BQ FUN - Analytics Hubで公開しました。]]></description>
+            <content:encoded><![CDATA[<p>gBizINFOの、法人番号のついた組織について情報を閲覧できるBigQueryテーブルを作成し、<a href="https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/120299025068/locations/asia-northeast1/dataExchanges/jpdata_18253a34a30/listings/gbizinfo_preprocessed_by_bq_fun_18253b3389d" target="_blank" rel="noopener noreferrer">gBizINFO preprocessed by BQ FUN - Analytics Hub</a>で公開しました。
+Analytics Hubを通して、自身の所有するGoogle Cloudプロジェクトの、BigQueryデータセットとしてリンクできます。</p><p><img loading="lazy" src="/assets/images/gbizinfo-1a47975018b16efdfcff48dc4dbd6126.png" width="768" height="391" class="img_ev3q"></p><p>「gBizINFO」（経済産業省）（<a href="https://info.gbiz.go.jp/hojin/DownloadTop" target="_blank" rel="noopener noreferrer">https://info.gbiz.go.jp/hojin/DownloadTop</a> ）を加工して作成しています。
+CSVダウンロードデータであり、gBizINFOで公開されている最新情報を閲覧できます。</p><p>Google Cloud上で、Scheduler、Workflows、Functionsを使って、更新されます。
+Terraformコードは<a href="https://github.com/bqfun/jpdata/blob/42d140912feb5a8f4244d6e7cd6c4e479a871c2a/terraform/environments/prod/main.tf#L6-L17" target="_blank" rel="noopener noreferrer">こちら</a>から確認できます。</p><p>BQ FUNは、利用者が本コンテンツを用いて行う一切の責任を負いません。 また、予告なく変更、削除される場合があります。</p><p>出典：「gBizINFO」（経済産業省）（<a href="https://info.gbiz.go.jp/" target="_blank" rel="noopener noreferrer">https://info.gbiz.go.jp/</a> ）</p>]]></content:encoded>
+            <category>analyticshub</category>
+        </item>
         <item>
             <title><![CDATA[祝日情報を加工して Analytics Hub - Google Cloud で公開]]></title>
             <link>https://bqfun.jp/blog/holidays-preprocessed</link>
@@ -16,7 +28,7 @@
             <description><![CDATA[国民の祝日を閲覧できるBigQueryテーブルを作成し、JP Holidays preprocessed by BQ FUN - Analytics Hubで公開しました。]]></description>
             <content:encoded><![CDATA[<p>国民の祝日を閲覧できるBigQueryテーブルを作成し、<a href="https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/120299025068/locations/asia-northeast1/dataExchanges/jpdata_18253a34a30/listings/jp_holidays_preprocessed_by_bq_fun_18253c4e9dc" target="_blank" rel="noopener noreferrer">JP Holidays preprocessed by BQ FUN - Analytics Hub</a>で公開しました。
 自身の所有するGoogle Cloudプロジェクトの、BigQueryデータセットとしてリンクできます。</p><p><img loading="lazy" src="/assets/images/jpholidays-6c90dbd8b0a6d03e824eeb011fa82f56.png" width="773" height="633" class="img_ev3q"></p><p>「国民の祝日について」（内閣府）（<a href="https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html" target="_blank" rel="noopener noreferrer">https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html</a> ）を加工して作成しています。</p><p>Google Cloud上で、Scheduler、Workflows、Functionsを使って、更新されます。
-Terraformコードは<a href="https://github.com/bqfun/jpdata/blob/42d140912feb5a8f4244d6e7cd6c4e479a871c2a/terraform/environments/prod/main.tf#L19-L30" target="_blank" rel="noopener noreferrer">こちら</a>から確認できます。</p><p>BQ Funは、利用者が本コンテンツを用いて行う一切の責任を負いません。 また、予告なく変更、削除される場合があります。</p><p>出典：「国民の祝日について」（内閣府）（<a href="https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html" target="_blank" rel="noopener noreferrer">https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html</a> ）</p>]]></content:encoded>
+Terraformコードは<a href="https://github.com/bqfun/jpdata/blob/42d140912feb5a8f4244d6e7cd6c4e479a871c2a/terraform/environments/prod/main.tf#L19-L30" target="_blank" rel="noopener noreferrer">こちら</a>から確認できます。</p><p>BQ FUNは、利用者が本コンテンツを用いて行う一切の責任を負いません。 また、予告なく変更、削除される場合があります。</p><p>出典：「国民の祝日について」（内閣府）（<a href="https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html" target="_blank" rel="noopener noreferrer">https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html</a> ）</p>]]></content:encoded>
             <category>analyticshub</category>
         </item>
     </channel>
