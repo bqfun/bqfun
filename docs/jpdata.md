@@ -7,8 +7,9 @@ Google Cloudを利用者は、自身のBigQueryデータセットにリンクし
 
 | データ名 | データセット名 | 更新頻度 | Analytics Hub | 実装 |
 |--|--|--|--|--|
-| 法人情報 | gbizinfo | 毎日 | [リンク](https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/120299025068/locations/asia-northeast1/dataExchanges/jpdata_18253a34a30/listings/gbizinfo_preprocessed_by_bq_fun_18253b3389d) | [リンク](https://github.com/bqfun/jpdata/blob/1aacf17cb8202b6a423ff271aebf7464f436b84c/terraform/environments/prod/main.tf#L15-L31) |
-| 国民の祝日 | holidays | 毎日 | [リンク](https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/120299025068/locations/asia-northeast1/dataExchanges/jpdata_18253a34a30/listings/jp_holidays_preprocessed_by_bq_fun_18253c4e9dc) | [リンク](https://github.com/bqfun/jpdata/blob/1aacf17cb8202b6a423ff271aebf7464f436b84c/terraform/environments/prod/main.tf#L33-L49) |
+| 法人情報（経済産業省） | gbizinfo | 毎日 | [リンク](https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/120299025068/locations/asia-northeast1/dataExchanges/jpdata_18253a34a30/listings/gbizinfo_preprocessed_by_bq_fun_18253b3389d) | [リンク](https://github.com/bqfun/jpdata/blob/84963d15f547a34e1d093ba131ee00cc7f47b29b/terraform/environments/prod/main.tf#L22-L34) |
+| 法人情報（国税庁）| houjinbangou | 毎月 | [リンク](https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/120299025068/locations/asia-northeast1/dataExchanges/jpdata_18253a34a30/listings/corporate_number_preprocessed_by_bq_fun_1843bbd5a18) | [リンク](https://github.com/bqfun/jpdata/blob/84963d15f547a34e1d093ba131ee00cc7f47b29b/terraform/environments/prod/main.tf#L50-L64) |
+| 国民の祝日 | holidays | 毎日 | [リンク](https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/120299025068/locations/asia-northeast1/dataExchanges/jpdata_18253a34a30/listings/jp_holidays_preprocessed_by_bq_fun_18253c4e9dc) | [リンク](https://github.com/bqfun/jpdata/blob/84963d15f547a34e1d093ba131ee00cc7f47b29b/terraform/environments/prod/main.tf#L36-L48) |
 
 ## Health ダッシュボード
 
