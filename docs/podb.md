@@ -1,9 +1,7 @@
-# Prepper Open Data Bank (PODB) on BigQuery
+# Prepper Open Data Bank
 
-株式会社 truestar が抽出、加工したデータ提供サービス Prepper Open Data Bank の Google BigQuery クローンとして Analytics Hub で公開しています。
+株式会社 truestar が抽出、加工したデータ提供サービス Prepper Open Data Bank の Google BigQuery クローンを Analytics Hub で公開しています。
 Google Cloud 利用者は、自身の BigQuery データセットにリンクして、自動更新されるデータを利用できます。
-
-[加工済みオープンデータ](https://bqfun.jp/docs/jpdata) もご確認ください。
 
 ## データ一覧
 
